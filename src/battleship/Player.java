@@ -1,7 +1,6 @@
 package battleship;
 
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Player {
@@ -45,7 +44,6 @@ public class Player {
         int [] input;
             while(true) {
                 input = scan();
-
                 if(battlefield.checkPlace(input,ship.getSize(),ship.getName())) {
                     break;
                 }
