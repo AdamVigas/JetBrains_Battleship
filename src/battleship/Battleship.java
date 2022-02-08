@@ -7,5 +7,6 @@ public class Battleship extends ShipsAbstract{
     public Battleship() {
         super.setName(this.name);
         super.setSize(this.size);
+        super.setCoord(new int[size*2]);
     }
 }

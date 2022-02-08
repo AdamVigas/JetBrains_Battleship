@@ -6,7 +6,7 @@ public abstract class ShipsAbstract {
      */
     private int size;
     private String name;
-    private int[] coord = new int[size*2];
+    private int[] coord;
 
     public int getSize() {
         return size;
@@ -16,8 +16,8 @@ public abstract class ShipsAbstract {
         return name;
     }
 
-    public int[] getCoord() {
-        return coord;
+    public void setCoord(int[] coord) {
+        this.coord = coord;
     }
 
     public void setSize(int size) {
@@ -28,9 +28,6 @@ public abstract class ShipsAbstract {
         this.name = name;
     }
 
-    public void setCoord(int[] coord) {
-        this.coord = coord;
-    }
 
     public void Coordinates(int [] arr) {
         int counter = 0;

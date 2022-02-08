@@ -82,7 +82,6 @@ public class Multiplayer {
                         if (player1.getBattlefield().getField()[input[0]][input[1]] == 'O') {
                             player2.getBattlefield().getHiddenField()[input[0]][input[1]] = 'X';
                             player1.getBattlefield().getField()[input[0]][input[1]] = 'X';
-                            System.out.println("sme tu");
 
                             int result = player1.bombChecker(input);
                             if(result == 2) {

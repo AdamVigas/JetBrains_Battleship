@@ -24,10 +24,10 @@ public class Battlefield {
     public Battlefield() {
         printField(getField());
         ships = new ArrayList<>();
-        //ships.add(new AircraftCarrier());
-        //ships.add(new Battleship());
-        //ships.add(new Submarine());
-        //ships.add(new Cruiser());
+        ships.add(new AircraftCarrier());
+        ships.add(new Battleship());
+        ships.add(new Submarine());
+        ships.add(new Cruiser());
         ships.add(new Destroyer());
     }
 

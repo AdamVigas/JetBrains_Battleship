@@ -7,5 +7,6 @@ public class Cruiser extends ShipsAbstract{
     public Cruiser() {
         super.setName(this.name);
         super.setSize(this.size);
+        super.setCoord(new int[size*2]);
     }
 }

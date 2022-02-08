@@ -7,5 +7,6 @@ public class Destroyer extends ShipsAbstract{
     public Destroyer() {
         super.setName(this.name);
         super.setSize(this.size);
+        super.setCoord(new int[size*2]);
     }
 }

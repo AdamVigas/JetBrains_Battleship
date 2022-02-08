@@ -7,5 +7,6 @@ public class Submarine extends ShipsAbstract{
     public Submarine() {
         super.setName(this.name);
         super.setSize(this.size);
+        super.setCoord(new int[size*2]);
     }
 }

@@ -9,5 +9,6 @@ public class AircraftCarrier extends ShipsAbstract{
     public AircraftCarrier() {
         super.setName(this.name);
         super.setSize(this.size);
+        super.setCoord(new int[size*2]);
     }
 }
